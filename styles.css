@@ -1,0 +1,108 @@
+/* Warna latar belakang aplikasi */
+
+.stApp {
+    background: linear-gradient(to bottom, #007BFF, #00BFFF);
+    /* Gradien biru laut */
+}
+
+
+/* Gaya sidebar */
+
+[data-testid="stSidebar"] {
+    background: linear-gradient(to right, #00BFFF, #1E90FF);
+    /* Gradien biru laut terang */
+    color: #ffffff;
+    /* Teks putih untuk keterbacaan yang lebih baik */
+    padding: 20px;
+    /* Padding yang ditingkatkan untuk kesan luas */
+    border-right: 1px solid #e0e0e0;
+    /* Garis batas halus untuk pemisahan */
+}
+
+
+/* Teks pada sidebar */
+
+[data-testid="stSidebar"] * {
+    color: #ffffff !important;
+    /* Teks putih untuk keterbacaan yang lebih baik */
+    font-size: 18px;
+    /* Ukuran font sedikit lebih besar */
+    margin-bottom: 10px;
+    /* Margin yang ditingkatkan untuk jarak yang lebih baik */
+    margin-top: 10px;
+    transition: color 0.3s;
+    /* Transisi halus untuk efek hover */
+}
+
+[data-testid="stSidebar"] *:hover {
+    color: #FFD700 !important;
+    /* Warna emas saat hover untuk sentuhan modern */
+}
+
+
+/* Gaya header bar */
+
+header[data-testid="stHeader"] {
+    background: linear-gradient(to right, #007BFF, #00BFFF);
+    /* Gradien biru laut */
+    color: white;
+    /* Teks putih untuk kontras */
+    padding: 15px;
+    /* Padding yang ditingkatkan untuk header yang lebih substansial */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    /* Bayangan yang ditingkatkan untuk kedalaman */
+}
+
+header[data-testid="stHeader"] h1 {
+    color: white;
+    /* Menjaga judul header tetap putih */
+    font-size: 20px;
+    /* Ukuran font yang ditingkatkan untuk visibilitas yang lebih baik */
+    font-family: 'Arial', sans-serif;
+    /* Pilihan font modern */
+}
+
+
+/* Gaya tombol */
+
+.stButton>button {
+    background: linear-gradient(to right, #007BFF, #00BFFF);
+    /* Gradien biru laut */
+    color: white;
+    /* Teks putih untuk kontras */
+    border: none;
+    /* Menghapus batas default */
+    padding: 12px 20px;
+    /* Padding untuk area klik yang nyaman */
+    border-radius: 8px;
+    /* Sudut yang lebih membulat untuk tampilan modern */
+    transition: background 0.3s, transform 0.2s;
+    /* Transisi halus */
+}
+
+.stButton>button:hover {
+    background: linear-gradient(to right, #0056b3, #00AFFF);
+    /* Gradien lebih gelap saat hover */
+    color: #ecf0f1;
+    /* Teks abu-abu terang saat hover */
+    transform: scale(1.05);
+    /* Memperbesar tombol sedikit saat hover */
+}
+
+
+/* Gaya judul khusus untuk laundry */
+
+.sidebar-title {
+    font-size: 26px;
+    /* Ukuran font lebih besar untuk penekanan */
+    font-weight: bold;
+    /* Teks tebal untuk keunggulan */
+    color: #FFD700;
+    /* Warna emas untuk sentuhan modern */
+    margin-bottom: 30px;
+    /* Margin yang ditingkatkan untuk jarak yang lebih baik */
+    text-align: center;
+    /* Teks yang terpusat */
+    font-family: 'Arial', sans-serif;
+    /* Pilihan font modern */
+}
